@@ -1,0 +1,445 @@
+/* Responsive for tablets and mobile */
+
+@media (max-width:1200px) {
+    .footer-inner {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px 20px;
+    }
+
+    .footer-content {
+        width: 25%;
+    }
+
+    .footer-content.footer-brand {
+        width: 25%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .navbar {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .hero-section {
+        min-height: 300px;
+
+    }
+
+    .hero-inner {
+        min-height: 300px;
+
+    }
+
+    .overlay-outer {
+        min-height: 300px;
+
+    }
+
+    .overlay-outer .overlay {
+
+        min-height: 300px;
+
+    }
+
+    .overlay-image {
+        width: 480px;
+        height: 480px;
+        position: absolute;
+        top: -50px;
+        left: -35px;
+    }
+
+    .overlay-outer .overlay .hero-heading {
+        font-size: 2em;
+
+    }
+
+    .overlay-outer .overlay .hero-des {
+        width: 98%;
+        line-height: 18px;
+    }
+}
+
+@media (max-width:992px) {
+    .overlay-outer {
+        flex-wrap: wrap;
+    }
+
+    .overlay-outer .overlay {
+        width: 98%;
+    }
+
+    .overlay-image {
+        height: auto;
+        width: auto;
+        position: absolute;
+        top: -85%;
+        left: 14%;
+    }
+
+    .overlay-image img {
+        object-position: center top;
+    }
+
+    .material-inner .material-card {
+        width: 49%;
+    }
+
+    .choose-inner {
+        flex-direction: column-reverse;
+        gap: 20px 0px;
+    }
+
+    .choose-content {
+        width: 99%;
+    }
+
+    .choose-image {
+        width: 99%;
+        height: 400px;
+    }
+
+    .choose-image-bg {
+        display: none;
+    }
+
+    .morden-design-inner {
+        flex-wrap: wrap;
+    }
+
+    .morden-design-section {
+        padding: 30px 0px;
+    }
+
+    .morden-design-image {
+        width: 98%;
+    }
+
+    .morden-design-image .morden-design-outer.morden-image1,
+    .morden-design-image .morden-design-outer.morden-image2,
+    .morden-design-image .morden-design-outer.morden-image3 {
+        display: none;
+    }
+
+    .morden-design-content {
+        width: 98%;
+        padding-top: 20px;
+    }
+
+
+    .product-section-inner {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        min-height: 400px;
+    }
+
+    .product-section-inner .sec1 {
+        width: 49%;
+    }
+
+    .blog_section {
+        min-height: 810px;
+    }
+
+    .down_blog_sec {
+        height: 350px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blog_box {
+        height: 100%;
+        width: 45%;
+        padding: 13px;
+    }
+
+    .choose-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .choose-card-contents{
+        width: 48%;
+    }
+}
+
+@media (max-width:768px) {
+    .footer-content {
+        width: 46%;
+    }
+
+    .footer-content.footer-brand {
+        width: 46%;
+    }
+
+    .footer-content:last-child {
+        width: 98%;
+    }
+
+    .overlay-image {
+        top: -64%;
+        left: 0%;
+    }
+
+    .product-section-inner {
+
+        display: block;
+        flex-direction: row;
+    }
+
+    .product-section-inner .sec1 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .blog_section {
+        min-height: 900px;
+    }
+
+    .down_blog_sec {
+        min-height: 350px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blog_box {
+        height: 100%;
+        width: 49%;
+        padding: 13px;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+    .team-container{
+        display:flex ;
+        flex-wrap: wrap;
+    }
+
+    .team-member{
+      width: 48%;  
+    }
+
+    .choose-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .overlay-outer .overlay .hero-heading {
+    font-size: 1em;
+    /* text-transform: capitalize;
+    color: var(--fifth-color); */
+}
+}
+
+@media(max-width:576px) {
+    .footer-inner {
+        min-height: 200px;
+
+
+    }
+
+    .footer-content:first-child {
+        padding-top: 30px;
+    }
+
+    .footer-content {
+        width: 98%;
+        min-height: 200px;
+        padding: 10px 0px;
+    }
+
+    .footer-content.footer-brand {
+        width: 98%;
+    }
+
+    .overlay-image {
+        top: 0%;
+
+    }
+
+    .material-inner .material-card {
+        width: 99%;
+        padding: 10px 0px;
+    }
+
+    .morden-design-image {
+        min-height: 300px;
+
+    }
+
+    .morden-design-image .morden-image-outer {
+        height: 300px;
+    }
+
+    .morden-design-image {
+        width: 98%;
+    }
+
+    .mordern-design-list ul li {
+        width: 98%;
+    }
+
+    .product-section-inner .sec1 {
+        margin-top: 8px;
+    }
+
+    .txt-sec {
+        padding: 0px 10px;
+        width: 70%;
+    }
+
+    .txt-sec p {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .blog_section {
+        min-height: 500px;
+    }
+
+    .down_blog_sec {
+        height: 350px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blog_box {
+        height: 100%;
+        width: 49%;
+        padding: 13px;
+    }
+
+     .team-container{
+        display:flex ;
+        flex-wrap: wrap;
+    }
+
+    .team-member{
+      width: 98%; 
+      padding: 10px; 
+    }
+
+    .choose-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .choose-card-contents{
+        width: 98%;
+    }
+}
+
+@media (max-width:425px) {
+    .max-width {
+        width: 100%;
+    }
+
+    .overlay-outer .overlay .hero-heading {
+        font-size: 1.2em;
+        padding: 20px 0px;
+    }
+
+    .overlay-outer .overlay .hero-des {
+        width: 100%;
+
+    }
+
+    .overlay-outer .overlay .hero-link {
+        padding: 3px 10px;
+        font-size: 10px;
+    }
+
+    .material-section,
+    .choose-section {
+        padding: 30px 0px;
+    }
+
+    .choose-image {
+        height: 300px;
+    }
+
+    .choose-card-content {
+        width: 99%;
+    }
+
+    .morden-design-image {
+        width: 98%;
+    }
+
+    .morden-design-section {
+        padding: 20xp 0px;
+    }
+
+    .blog_section {
+        min-height: 1300px;
+    }
+
+    .down_blog_sec {
+        height: 350px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blog_box {
+        height: 100%;
+        width: 100%;
+        padding: 23px;
+    }
+
+    .l_newsletter_form_sec {
+        margin-top: 25px;
+        height: 70%;
+        width: 100%;
+    }
+
+    .Newsletter_sec {
+        min-height: 640px;
+    }
+
+    .Newsletter_inner_sec {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .r_newsletter_sec {
+        padding: 40px 10px;
+        height: 100%;
+        width: 86%;
+    }
+
+    .l_newsletter_form_sec a {
+        background-color: var(--forth-color);
+        /* padding: 20px 45px; */
+        color: var(--sixth-color);
+        border-radius: 10px;
+    }
+
+    .bFooter{
+        min-height: 270px;
+    }
+
+    .form-row{
+       margin-left: 0%;
+    }
+
+    .form-group{
+        width: 200px;
+    }
+
+    .overlay-outer .overlay .hero-heading {
+    font-size: -1em;
+}
+}

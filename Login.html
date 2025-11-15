@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/owl.carousel.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+<body>
+     <header class="header" id="header">
+        <div class="max-width header-inner">
+            <div class="logo">
+                <a class="logo-link" href="index.html">
+                    <span>F<i class="fa-solid fa-couch"></i>rniVista</i></span>
+                </a>
+            </div>
+            <nav class="navbar">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="shop.html" class="nav-link">Shop</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="Login.html" class="nav-link"><i class="fa-regular fa-user"></i></a>
+                <a href="cart.html" class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a>
+            </nav>
+            <i class="fa-solid fa-bars bars"></i>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Sidebar for Mobile -->
+    <div class="sidebar" id="sidebar">
+        <a href="#" class="sidebar-close" id="sidebarCloseBtn">&times;</a>
+        <a href="index.html" class="sidebar-link">Home</a>
+        <a href="shop.html" class="sidebar-link">Shop</a>
+        <a href="about.html" class="sidebar-link">About Us</a>
+        <a href="services.html" class="sidebar-link">Services</a>
+        <a href="blog.html" class="sidebar-link">Blog</a>
+        <a href="contact.html" class="sidebar-link">Contact</a>
+        <a href="Login.html" class="sidebar-link"><i class="fa-regular fa-user"></i> Account</a>
+        <a href="cart.html" class="sidebar-link"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+    </div>
+    <div id="whole">
+        <div id="outer">
+        <!-- <div class="l-div"></div> -->
+        <div class="r-div">
+            <form>
+                <h2 class="login">Register</h2>
+            <input class="name" type="text" placeholder="Enter your Name..."/>
+            <input class="name" type="email" placeholder="Enter your  Email..."/>
+            <input class="name" type="password" placeholder="Enter your Password..."/>
+            <input id="btn1" type="button" onclick="toggleForm()" value="Register"/>
+            </form>
+            
+        </div>
+    </div>
+
+     <div id="inner">
+        
+        <!-- <div class="l-div"></div> -->
+        <div class="r-div">
+            <form>
+                <h2 class="login">Login</h2>
+            <input class="name" type="email" placeholder="Enter your  Email..."/>
+            <input class="name" type="password" placeholder="Enter your Password..."/>
+            <input id="btn2" type="button" onclick="toggleForm()" value="Login"/>
+            </form>
+            
+        </div>
+    </div>  
+    </div>
+     <!-- JS -->
+   <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- <script src="JS/swiper-bundle.min.js"></script> -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
